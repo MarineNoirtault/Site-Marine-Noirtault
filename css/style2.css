@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+  color: #1d1d1d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+/*.container{
+  padding: 2em 0;
+  float: left;
+  width: 50%;
+}
+
+.container .title{
+  color: #333;
+  text-align: center;
+}
+*/
+.content {
+/*  position: relative;
+  width: 90%;
+/*  max-width:260px;
+  margin: auto;
+ /* overflow: hidden;*/
+}
+
+
+
+/*.content:hover .content-overlay{
+  opacity: 1;
+}
+*/
+/*.content-image{
+  width: 100%;
+}
+*/
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 9em;
+  padding-right: 1em;
+  width: 100%;/*100*/
+  top: 50%;
+  left: 80%;/*50%*/
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.article1 .content:hover .content-details{
+  top: 90%;
+  left: 90%;
+  opacity: 1;
+}
+.article2 .content:hover .content-details{
+  top: 10%;
+  left: 60%;
+  opacity: 1;
+}
+.article3 .content:hover .content-details{
+  top: 90%;
+  left: 90%;
+  opacity: 1;
+}
+.article4 .content:hover .content-details{
+  top: 10%;
+  left: 90%;
+  opacity: 1;
+}
+.article5 .content:hover .content-details{
+  top: 90%;
+  left: 90%;
+  opacity: 1;
+}
+.content:hover .content-details{
+  top: 50%;
+  left: 90%;
+  opacity: 1;
+}
+.content:hover .content-details{
+  top: 50%;
+  left: 90%;
+  opacity: 1;
+}
+.content-details h3{
+  color:#000;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.6em;
+  
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}

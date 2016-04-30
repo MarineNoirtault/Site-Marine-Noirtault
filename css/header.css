@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	background-color: #EFF8F8;
+	height: 200px;
+	width: 100%;
+}
+
+.menu{
+	position: relative;
+	top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000;
+	width: 600px;
+	height: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+}
+.menu a{
+	padding-right:15px;
+}
+.menu a:hover{
+	color: #408080;
+	font-weight: bold;
+}
+	
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.Logo {
+	top: 15px;
+	position:relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
