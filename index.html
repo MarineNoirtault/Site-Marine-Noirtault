@@ -1,14 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Marine Noirtault</title>
+<meta charset="UTF-8">
+<title>Marine Noirtault - Accueil</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-body {
-	background-color: #EFF8F8;
-}
-
-.accueil {
+.contenu {
+	background-image: url(Logo.png);
 	background-image: url(Logo.png);
 	height: 331px;
 	width: 788px;
@@ -16,75 +14,34 @@ body {
 	margin-left: auto;
 	background-repeat: no-repeat;
 	background-position: center center;
-	margin-top: 12%;
-	margin-bottom: auto;
+	margin-top:12%;
 }
- .article1 {
-	display: inline;
-	height: 130px;
-	width: 151px;
-	z-index: 1;
-	position: relative;
-	top: 40%;
-	left: 110px;
+.menu{
+	margin-left:14%;
 }
-.article2 {
-	display: inline;
-	height: 130px;
-	width: 151px;
-	z-index: 2;
-	position: relative;
-	top: 10%;
-	left: 47px;
-}
-.article3 {
-	display: inline;
-	height: 130px;
-	width: 151px;
-	z-index: 3;
-	position: relative;
-	top: 28%;
-	left: 29px;
-}
-.article4 {
-	display: inline;
-	height: 130px;
-	width: 151px;
-	z-index: 4;
-	position: relative;
-	top: 10%;
-	left: -34px;
-}
-.article5 {
-	display: inline;
-	height: 130px;
-	width: 151px;
-	z-index: 5;
-	position: relative;
-	top: 28%;
-	left: -98px;
-}
-
-img {
-	-webkit-transition: all 1s;
-	-moz-transition: all 1s;
-	-ms-transition: all 1s;
-	-o-transition: all 1s;
-	transition: all 1s;
-}
-
-img:hover {
-	transform: scale(1.38);
-	-ms-transform: scale(1.38);
-	-webkit-transform: scale(1.38);
-	-o-transform: scale(1.38);
-	-moz-transform: scale(1.38);
+.articleB {
 	
+	margin-top:95px;
+	float: left;
+	height: 130px;
+	width: 151px;
 }
-
+.articleH {
+	margin-top:28px;
+	margin-left:-9%;
+	float: left;
+	height: 130px;
+	width: 151px;
+}
+#a{
+	margin-left:-2%;
+	
+	}
+	#b{
+	margin-left:-9%;
+	}
 
 </style>
-<link href="css/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -109,54 +66,58 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 </head>
 
-<body onLoad="MM_preloadImages('Triangle1.png','Triangle2.png','Triangle3.png','Triangle4.png','Triangle5.png')">
-<div class="accueil">
-  <div class="article1">
+<body  onLoad="MM_preloadImages('Triangle1.png','Triangle2.png','Triangle3.png','Triangle4.png','Triangle5.png')">
+<div class="contenu">
+<div class="menu">
+  <div class="articleB">	
   <div class="content">
-    <div class="content-overlay"></div>
-  <img src="Triangle bas.png" width="151" height="130" id="articles1" onMouseOver="MM_swapImage('articles1','','Triangle1.png',1)" onMouseOut="MM_swapImgRestore()">
+  <div class="content-overlay"></div>
+  <a href="index.html"><img src="Triangle bas.png" width="151" height="130" id="articles1" onMouseOver="MM_swapImage('articles1','','Triangle1.png',1)" onMouseOut="MM_swapImgRestore()"></a>
   <div class="content-details fadeIn-bottom">
         <h3 class="content-title">ACCUEIL</h3>
-      </div>
+        </div>
       </div>
   </div>
-  <div class="article2">
-    <div class="content">
-    <div class="content-overlay"></div>
-  <img src="Triangle haut.png" width="150" height="130" id="articles2" onMouseOver="MM_swapImage('articles2','','Triangle2.png',1)" onMouseOut="MM_swapImgRestore()">
-    <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">Presentation</h3>
+<div class="articleH">	
+  <div class="content">
+  <div class="content-overlay"></div>
+  <a href="présentation.html"><img src="Triangle haut.png" width="151" height="130" id="articles2" onMouseOver="MM_swapImage('articles2','','Triangle2.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+  <div class="content-details fadeIn-top">
+        <h3 class="content-title">Présentation</h3>
+        </div>
       </div>
-    </div>
   </div>
-<div class="article3">
-    <div class="content">
-    <div class="content-overlay"></div>
-    <img src="Triangle bas.png" width="151" height="130" id="articles3" onMouseOver="MM_swapImage('articles3','','Triangle3.png',1)" onMouseOut="MM_swapImgRestore()">
-        <div class="content-details fadeIn-bottom">
+  <div class="articleB" id="a">	
+  <div class="content">
+  <div class="content-overlay"></div>
+  <a href="CV.html"><img src="Triangle bas.png" width="151" height="130" id="articles3" onMouseOver="MM_swapImage('articles3','','Triangle3.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+  <div class="content-details fadeIn-bottom">
         <h3 class="content-title">CV</h3>
+        </div>
       </div>
-    </div>
   </div>
-<div class="article4">
-    <div class="content">
-    <div class="content-overlay"></div>
-    <img src="Triangle haut.png" width="150" height="130" id="articles4" onMouseOver="MM_swapImage('articles4','','Triangle4.png',1)" onMouseOut="MM_swapImgRestore()">
-    <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">Portefolio</h3>
+<div class="articleH">	
+  <div class="content">
+  <div class="content-overlay"></div>
+  <a href="portfolio.html"><img src="Triangle haut.png" width="151" height="130" id="articles4" onMouseOver="MM_swapImage('articles4','','Triangle4.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+  <div class="content-details fadeIn-top">
+        <h3 class="content-title">Porfolio</h3>
+        </div>
       </div>
-    </div>
+  </div>
+   <div class="articleB" id="b">	
+  <div class="content">
+  <div class="content-overlay"></div>
+  <a href="Contact.html"><img src="Triangle bas.png" width="151" height="130" id="articles5" onMouseOver="MM_swapImage('articles5','','Triangle5.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+  <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">CONTACT</h3>
+        </div>
+      </div>
+  </div>
 </div>
-<div class="article5">
-    <div class="content">
-    <div class="content-overlay"></div>
-    <img src="Triangle bas.png" width="151" height="130" id="articles5" onMouseOver="MM_swapImage('articles5','','Triangle5.png',1)" onMouseOut="MM_swapImgRestore()">
-    <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">Contact</h3>
-      </div>
-    </div>
 </div>
 </body>
 </html>
